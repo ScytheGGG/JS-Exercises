@@ -1,0 +1,47 @@
+/* Simple code that makes my life easier */
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+html {
+        scroll-behavior: smooth;
+}
+
+.sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000; /* Adjust the z-index value as needed */
+}
+
+.sticky + .content {
+        padding-top: 60px;
+}
+
+:root {
+        --gray: #141414;
+}
+
+/* - - - - - - - - - - -- - - - - - -- - - - - - - - - -- -  - - - - - */
+/* Customizing the header */
+.navigation {
+        background-color: var(--gray);
+        text-align: center;
+        letter-spacing: 3px;
+        padding: 35px;
+        .kjse {
+                font-family:  'Roboto Condensed', 'Lato', Arial, sans-serif!important;
+                color: white;
+        }
+}
+
+/* - - - - - - - - - - -- - - - - - -- - - - - - - - - -- -  - - - - - */
+/* Customizing the header */
+.calculator {
+        display: flex;
+        flex-direction: column; /* Set to column to make items stack vertically */
+        align-items: center; /* Center the items horizontally within the form */
+}
