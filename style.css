@@ -40,7 +40,8 @@ html {
 }
 
 /* - - - - - - - - - - -- - - - - - -- - - - - - - - - -- -  - - - - - */
-/* Customizing the calculator */
+/* Customizing the EASY projects */
+
 .calculator {
         padding-top: 65px;
         padding-bottom: 95px;
@@ -62,5 +63,18 @@ html {
         }
         .counterNumber {
                 padding-bottom: 10px;
+        }
+}
+
+.countdownclock {
+        padding-bottom: 95px;
+        text-align: center;
+        color: white;
+        background-color: var(--blue);
+        .cdcTitle {
+                padding-bottom: 20px;
+        }
+        .cdc {
+                font-size: 22px;
         }
 }

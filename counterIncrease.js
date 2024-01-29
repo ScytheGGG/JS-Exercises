@@ -3,7 +3,5 @@ function counterIncrease() {
         var number = parseFloat(numberElement.innerText);
     
         number = number + 1;
-    
-        // Update the counter number in the HTML
         numberElement.innerText = number;
 }
