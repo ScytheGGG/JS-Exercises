@@ -8,6 +8,9 @@
 
         <script src="calculator.js"></script>
         <script src="navbar.js"></script>
+        <script src="counterDecrease.js"></script>
+        <script src="counterReset.js"></script>
+        <script src="counterIncrease.js"></script>
 </head>
 <body>
     <header>
@@ -16,12 +19,22 @@
         </div>
     </header>
     <div class="calculator">
+        <h2 class="calculatorTitle">Calculator</h2>
         <form id="calculator">
                 <label for="number1">Number 1:</label>
                 <input type="text" id="number1" name="number1" required>
                 <label for="number2">Number 2:</label>
                 <input type="text" id="number2" name="number2" required>
                 <button type="button" onclick="addNumbers()">Add the numbers up</button>
+        </form>
+    </div>
+    <div class="counter">
+        <h2 class="counterTitle">Counter</h2>
+        <form id="counter">
+            <h3 class="counterNumber">0</h3>
+            <button type="button" onclick="counterDecrease()">Decrease</button>
+            <button type="button" onclick="counterReset()">Reset</button>
+            <button type="button" onclick="counterIncrease()">Increase</button>
         </form>
     </div>
 </body>

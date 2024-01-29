@@ -23,6 +23,7 @@ html {
 
 :root {
         --gray: #141414;
+        --blue: #15222E;
 }
 
 /* - - - - - - - - - - -- - - - - - -- - - - - - - - - -- -  - - - - - */
@@ -39,9 +40,27 @@ html {
 }
 
 /* - - - - - - - - - - -- - - - - - -- - - - - - - - - -- -  - - - - - */
-/* Customizing the header */
+/* Customizing the calculator */
 .calculator {
-        display: flex;
-        flex-direction: column; /* Set to column to make items stack vertically */
-        align-items: center; /* Center the items horizontally within the form */
+        padding-top: 65px;
+        padding-bottom: 95px;
+        text-align: center;
+        color: white;
+        background-color: var(--blue);
+        .calculatorTitle {
+                padding-bottom: 25px;
+        }
+}
+
+.counter {
+        padding-bottom: 95px;
+        text-align: center;
+        color: white;
+        background-color: var(--blue);
+        .counterTitle {
+                padding-bottom: 15px;
+        }
+        .counterNumber {
+                padding-bottom: 10px;
+        }
 }
