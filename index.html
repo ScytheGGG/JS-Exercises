@@ -12,6 +12,7 @@
         <script src="counterReset.js"></script>
         <script src="counterIncrease.js"></script>
         <script src="countdownclock.js"></script>
+        <script src="bmic.js"></script>
 </head>
 <body>
     <header>
@@ -41,6 +42,13 @@
     <div class="countdownclock">
         <h2 class="cdcTitle">Countdown Clock - Time until 2025</h2>
         <p id="cdc"></p>
+    </div>
+    <div class="bmicalculator">
+        <h2 class="bmicTitle">BMI Calculator</h2>
+        <input type="text" placeholder="Enter your weight [KG]" id="bmicWeight">
+        <input type="text" placeholder="Enter your height [CM]" id="bmicHeight">
+        <button type="button" onclick="bmic()" id="bmicWB">Calculate the BMI</button>
+        <h4 class="bmicAnswer" id="bmicAnswer"></h4>
     </div>
 </body>
 </html>

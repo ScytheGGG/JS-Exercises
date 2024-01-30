@@ -72,9 +72,22 @@ html {
         color: white;
         background-color: var(--blue);
         .cdcTitle {
-                padding-bottom: 20px;
+                padding-bottom: 10px;
         }
         .cdc {
                 font-size: 22px;
+        }
+}
+
+.bmicalculator {
+        padding-bottom: 95px;
+        text-align: center;
+        color: white;
+        background-color: var(--blue);
+        .bmicTitle {
+                padding-bottom: 10px;
+        }
+        .bmicAnswer {
+                padding-top: 35px;
         }
 }
