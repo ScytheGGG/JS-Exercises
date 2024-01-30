@@ -80,7 +80,7 @@ html {
 }
 
 .bmicalculator {
-        padding-bottom: 95px;
+        padding-bottom: 65px;
         text-align: center;
         color: white;
         background-color: var(--blue);
@@ -89,5 +89,33 @@ html {
         }
         .bmicAnswer {
                 padding-top: 35px;
+        }
+}
+
+.todoList {
+        padding-bottom: 95px;
+        text-align: center;
+        color: white;
+        background-color: var(--blue);
+        .tdlTitle {
+                padding-bottom: 10px;
+        }
+
+        .tdlitem {
+                border: none;
+                border-radius: 5px;
+                padding: 10px;
+                width: 22%;
+                margin-right: 10px;
+        }
+
+        .tdlButton {
+                background-color: #2980b9;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                padding: 10px 20px;
+                cursor: pointer;
+                transition: background-color 0.3s ease-in-out;
         }
 }
