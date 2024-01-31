@@ -97,6 +97,9 @@ html {
         text-align: center;
         color: white;
         background-color: var(--blue);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         .tdlTitle {
                 padding-bottom: 10px;
         }
@@ -105,8 +108,14 @@ html {
                 border: none;
                 border-radius: 5px;
                 padding: 10px;
-                width: 22%;
                 margin-right: 10px;
+                width: 80%;
+        }
+
+        .tdlForm {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
         }
 
         .tdlButton {
@@ -122,6 +131,7 @@ html {
                 list-style: none;
                 padding: 20px;
                 width: 25%;
+                align-self: center;
         }
             
         #todo-list li {
