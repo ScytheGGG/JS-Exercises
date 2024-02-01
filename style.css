@@ -109,7 +109,6 @@ html {
                 border-radius: 5px;
                 padding: 10px;
                 margin-right: 10px;
-                width: 80%;
         }
 
         .tdlForm {
@@ -156,3 +155,49 @@ html {
                 transition: background-color 0.3s ease-in-out;
         }
 }
+
+.LoanCalculator {
+        padding-bottom: 65px;
+        text-align: center;
+        color: white;
+        background-color: var(--blue);
+        .lcTitle {
+                padding-bottom: 10px;
+        }
+
+        #loan-form {
+                max-width: 400px;
+                margin: auto;
+        }
+    
+        .input-group {
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+        }
+            
+    
+        .form-control {
+                width: 100%;
+                padding: 10px;
+        }
+    
+        .btn-lc {
+                width: 100%;
+        }
+    
+        .input-group-prepend {
+                width: 40px;
+        }
+    
+        .input-group-text {
+                width: 40px; /* Adjust the width based on your preference */
+                text-align: center;
+                margin-right: 5px; /* Add some space between the sign and the input field */
+        }
+    
+        .form-group {
+                margin-bottom: 15px;
+        }
+}
+
