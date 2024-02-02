@@ -14,6 +14,7 @@
         <script src="bmic.js"></script>
         <script src="tdl.js"></script>
         <script src="loanCalculator.js"></script>
+        <script src="weather.js"></script>
 </head>
 <body>
     <header>
@@ -88,6 +89,29 @@
             <h3 class="lcTotal" id="lcTotal"></h4>
             <h3 class="lcInterest" id="lcInterest"></h4>
         </form>
-    </div>    
+    </div>
+    <div class="weatherapp">
+        <h2 class="waTitle">Weather App</h2>
+        <div class="weather-container">
+            <div class="weather-input">
+                <h3>Enter a City Name</h3>
+                <input class="city-input" type="text" placeholder="E.g., New York, Helsinki, Tokyo">
+                <button class="search-btn">Search</button>
+            </div>
+            <div class="weather-data">
+                <div class="current-weather">
+                    <div class="details">
+                        <h2 id="cityoutput"></h2>
+                        <p id="description"></p>
+                        <p id="temp"></p>
+                        <p id="wind"></p>
+                    </div>
+                    <div class="icon">
+                        <!-- Add the icon and description here dynamically -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
 </body>
 </html>
