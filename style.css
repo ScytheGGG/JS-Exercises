@@ -256,3 +256,22 @@ html {
         }
 }
 
+.rockpaperscissors {
+        padding-bottom: 65px;
+        text-align: center;
+        color: white;
+        background-color: var(--blue);
+        .rpsTitle {
+                padding-bottom: 10px;
+        }
+        .rpsP1 {
+                padding-bottom: 5px;
+        }
+        .rpsP2 {
+                padding-bottom: 15px;
+        }
+        .rpsMessage {
+                padding-bottom: 15px;
+        }
+}
+
